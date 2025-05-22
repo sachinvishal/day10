@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    int x =42;
+    int *ptl =&x;
+    printf("address of x:%d\n",ptl);
+    return 0;
+}
