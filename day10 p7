@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int arr[]={10,20,30,40,50};
+    int*ptl=arr;
+    int size=sizeof(arr)/sizeof(arr[0]);
+    printf("array element are:\n");
+    for(int;20;i<size;i++)
+    {
+        printf("%d",m*(ptl+i));
+    }
+    printf("\n");
+
+    return 0;
+}
