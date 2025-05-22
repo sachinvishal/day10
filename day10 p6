@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=10,b=20;
+    int*ptl1=&a;//1000
+    int*ptl2=&b;//2000
+    int sum =*ptl1+*ptl2;
+    printf("sum of %d is%d\n",*ptl1,*ptl2,sum);
+    return 0;
+}
